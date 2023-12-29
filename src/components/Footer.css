@@ -1,0 +1,127 @@
+.footer {
+    height: auto;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_left {
+    flex: 1;
+    /* background-color: aqua; */
+    height: 140px;
+
+}
+
+img {
+    padding: 35px;
+}
+
+.footer_centre {
+    flex: 1;
+    /* background-color: bisque; */
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+}
+
+.footer_centre_inner {
+    flex-direction: row;
+    /* background-color: red; */
+    margin-top: 60px;
+}
+
+.footer_centre span {
+
+    border: 2px solid gray;
+    color: gray;
+    padding: 15px;
+    margin-left: 8px;
+    border-radius: 100%;
+    justify-content: center;
+
+}
+
+.footer_centre span:hover {
+    background-color: #f6004c;
+    position: relative;
+    top: -3px;
+    /* border: #f6004c; */
+    border-color: #f6004c;
+    color: white;
+}
+
+.footer_right {
+    flex: 1;
+    /* background-color: aqua; */
+    height: 140px;
+    text-align: center;
+    /* position: relative; */
+}
+
+.footer_right span {
+    color: gray;
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
+    /* position: absolute; */
+    /* top: 20px; */
+    position: relative;
+    top: 60px;
+    left: 90px;
+}
+
+/* Scroll top */
+.footer_right .top {
+    background-color: #f6004c;
+}
+
+/* Media Queries */
+
+@media screen and (max-width:1670px) {
+    .footer_right span {
+        left: -27px;
+    }
+}
+
+
+@media screen and (max-width:991px) {
+    .footer_left a img {
+        height: 50px;
+    }
+
+    .footer_left {
+        flex: 0;
+    }
+
+    .footer_centre span {
+        justify-content: flex-start;
+        padding: 6px;
+
+    }
+}
+
+@media screen and (max-width:630px) {
+    .footer_centre span {
+        padding: 4px;
+    }
+
+    .footer_right span {
+        font-size: 10px;
+        left: 0px;
+    }
+
+    .footer_left a img {
+        height: 30px;
+        padding-left: 8px;
+        padding-top: 60px;
+    }
+}
+
+@media screen and (max-width:578px) {
+    .footer_centre span {
+        padding: 3px;
+        border: 0px;
+
+    }
+}

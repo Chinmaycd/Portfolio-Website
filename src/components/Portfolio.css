@@ -1,0 +1,188 @@
+.portfolio {
+    /* height: 1600px; */
+    background-color: #191919;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio_txt {
+    height: 200px;
+    width: 100%;
+    /* background-color: aqua; */
+    margin: auto;
+    padding-top: 70px;
+
+}
+
+.portfolio_txt h1 {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-family: Poppins, sans-serif;
+    margin: 0 0 15px;
+    font-size: 60px;
+    margin-bottom: 8px;
+}
+
+.portfolio_txt p {
+    padding: 0 10%;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 30px;
+    font-family: Poppins, sans-serif;
+    color: gray;
+    text-align: center;
+}
+
+.main-section {
+    /* display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background: #bbb;
+    width: 65%;
+    margin: auto; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background: #bbb; */
+    width: 65%;
+    margin: auto;
+}
+
+.cardd {
+    width: 370px;
+    height: 550px;
+    margin: 15px;
+    border: 0px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+    box-sizing: border-box;
+
+}
+
+.img_1 {
+
+    background-image: url('https://trydo.rainbowit.net/assets/images/portfolio/portfolio-1.jpg');
+    background-size: cover;
+    transition: .5s ease-in;
+
+    /* backface-visibility: hidden; */
+
+}
+
+.img_2 {
+    background-image: url('https://trydo.rainbowit.net/assets/images/portfolio/portfolio-2.jpg');
+    background-size: cover;
+    transition: .5s ease-in;
+}
+
+.img_3 {
+    background-image: url('https://trydo.rainbowit.net/assets/images/portfolio/portfolio-3.jpg');
+    background-size: cover;
+    transition: .5s ease-in;
+}
+
+.img_4 {
+    background-image: url('https://trydo.rainbowit.net/assets/images/portfolio/portfolio-4.jpg');
+    background-size: cover;
+    transition: .5s ease-in;
+}
+
+.img_5 {
+    background-image: url('https://trydo.rainbowit.net/assets/images/portfolio/portfolio-3.jpg');
+    background-size: cover;
+    transition: .5s ease-in;
+}
+
+.img_6 {
+    background-image: url('https://trydo.rainbowit.net/assets/images/portfolio/portfolio-4.jpg');
+    background-size: cover;
+    transition: .5s ease-in;
+}
+
+.img1_txt {
+    height: 200px;
+    width: 80%;
+    /* background-color: red; */
+    margin: 300px 20px 20px 28px;
+    text-align: center;
+
+}
+
+.img1_txt h4 {
+    color: #bbb;
+    /* margin-left: 100px; */
+    /* text-align: center; */
+    font-family: Poppins, sans-serif;
+}
+
+.img1_txt h3 {
+    /* text-align: center; */
+    font-size: 24px;
+    line-height: 36px;
+    color: white;
+}
+
+.img1_txt button {
+    padding: 0 23px;
+    height: 40px;
+    color: white;
+    background-color: transparent;
+    border-radius: 5px;
+    border: solid gray;
+    /* margin-left: 77px; */
+    margin-top: 30px;
+
+}
+
+.cardd:hover {
+    /* background-color: #f6004c; */
+    /* background-image: linear-gradient(#f6004c 10%, #000); */
+
+    transform: scale(1.05);
+    opacity: 0.5;
+    cursor: pointer;
+
+}
+
+
+.img1_txt button:hover {
+    /* background-color: #f6004c; */
+    top: -3px;
+    position: relative;
+    border: 2px solid #f9004d;
+    background-color: #f9004d;
+    cursor: pointer;
+}
+
+.section_end {
+    background-color: #191919;
+    height: 200px;
+    width: 100%;
+}
+
+/* Media Queries */
+
+@media screen and (max-width:600px) {
+    .main-section {
+        width: 80%;
+    }
+
+    .cardd {
+        width: 600px;
+        height: 500px;
+
+    }
+}
+
+@media screen and (max-width:500px) {
+    .portfolio_txt h1 {
+        font-size: 40px;
+
+    }
+
+    .portfolio_txt p {
+        font-size: 18px;
+    }
+}

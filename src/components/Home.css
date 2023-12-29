@@ -1,0 +1,133 @@
+.home {
+    position: relative;
+    margin-top: -80px;
+    background-color: aqua;
+    height: 950px;
+    background-image: url('https://trydo.rainbowit.net/assets/images/bg/bg-image-28.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: red; */
+    background-position: 50%;
+    width: 100%;
+
+
+}
+
+.text_container {
+    height: 40%;
+    width: 42%;
+    /* background-color: greenyellow; */
+    left: 10%;
+    top: 40%;
+    position: absolute;
+}
+
+.text_container span {
+    color: gray;
+    font-family: Tahoma, sans-serif;
+    /* padding: 50px; */
+    font-size: 16px;
+    /* font-stretch: extra-expanded; */
+}
+
+.text_container h1 {
+    font-size: 70px;
+    color: white;
+    font-family: Tahoma, sans-serif;
+}
+
+.animate_text h1 {
+    color: red;
+    font-family: Tahoma, sans-serif;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width:1433px) {
+    .text_container {
+        left: 5%
+    }
+
+    .text_container h1 {
+        font-size: 50px;
+    }
+
+    ;
+}
+
+@media screen and (max-width:1027px) {
+    .text_container {
+        left: 8%
+    }
+
+    .text_container h1 {
+        font-size: 40px;
+    }
+
+    .home {
+        height: 700px
+    }
+
+    ;
+}
+
+@media screen and (max-width:837px) {
+    .text_container {
+        left: 8%
+    }
+
+    .text_container h1 {
+        font-size: 30px;
+    }
+
+    .text_container span {
+        font-size: 12px
+    }
+
+    .home {
+        height: 600px
+    }
+
+    ;
+}
+
+@media screen and (max-width:650px) {
+    .text_container {
+        left: 8%
+    }
+
+    .text_container h1 {
+        font-size: 25px;
+    }
+
+    .text_container span {
+        font-size: 8px
+    }
+
+    .home {
+        height: 450px
+    }
+
+    ;
+}
+
+@media screen and (max-width:536px) {
+    .text_container {
+        left: 8%
+    }
+
+    .text_container h1 {
+        font-size: 18px;
+    }
+
+    .text_container span {
+        font-size: 8px
+    }
+
+    .home {
+        height: 400px
+    }
+
+    ;
+}
